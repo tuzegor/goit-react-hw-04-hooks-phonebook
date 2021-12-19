@@ -1,0 +1,14 @@
+.filter {
+  padding: 20px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.field {
+  margin-top: 10px;
+}

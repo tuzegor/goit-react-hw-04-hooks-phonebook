@@ -1,0 +1,32 @@
+.contactForm {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.inputWrapper {
+  margin-bottom: 30px;
+}
+.contactForm label {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.submitBtn {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  font-size: 24px;
+  color: #e5d5bc;
+  background-color: #633416;
+  border: 2px solid #c17f43;
+  border-radius: 5px;
+}
+.submitBtn:hover {
+  cursor: pointer;
+  color: #633416;
+  background-color: #e5d5bc;
+}

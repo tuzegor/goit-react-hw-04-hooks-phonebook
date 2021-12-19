@@ -1,0 +1,25 @@
+.contactsList {
+  padding: 20px;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}
+.deleteBtn {
+  display: inline-block;
+  font-size: 18px;
+  color: #e5d5bc;
+  background-color: #633416;
+  border: 2px solid #c17f43;
+  border-radius: 5px;
+}
+.deleteBtn:hover {
+  cursor: pointer;
+  color: #633416;
+  background-color: #e5d5bc;
+}
