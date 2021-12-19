@@ -11,7 +11,7 @@ function Filter({ filter, findName }) {
           className={style.field}
           type="text"
           value={filter}
-          onChange={findName}
+          onChange={e => findName(e.target.value)}
         />
       </label>
     </div>
